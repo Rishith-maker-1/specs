@@ -1,0 +1,22 @@
+h3{
+    font-size: 35px !important;
+}
+.btn-success:hover{
+    background-color: cornflowerblue;
+}
+canvas{
+    animation-name: glow;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow{
+    0%{
+        box-shadow: 1px 1px 40px blue;
+    }
+    50%{
+        box-shadow: 1px 1px 40px yellow;
+    }
+    100%{
+        box-shadow: 1px 1px 40px blue;
+    }
+}
